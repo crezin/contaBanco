@@ -17,20 +17,20 @@ public class contaTerminal {
         String info = "(depois ENTER para o próximo campo)";
         System.out.println("Por favor, digite o número da Agência !");
         System.out.println(" usuário : " + info);
-        int usuário = scanner.nextInt();
+        int numero = scanner.nextInt();
 
         System.out.println(" nome : " + info);
-        String nome = scanner.next();
-        System.out.println(" conta : "+ info );
-       String  Numero = scanner.next();
+        String nomeCliente = scanner.next();
+        System.out.println(" agencia : "+ info );
+        String agencia = scanner.next();
         System.out.println(" saldo : "+ info);
-        double valorSolicitado = scanner.nextDouble();
+        double saldo= scanner.nextDouble();
 
 
         /*imprimi usando concatenar
         * "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia]
         * , conta [Numero] e seu saldo [Saldo] já está disponível para saque".*/
 
-       System.out.println("Olá " + nome + " obrigado por criar uma conta em nosso banco, sua agência é "+ usuário +", conta " + Numero+ "e seu saldo "+ valorSolicitado + " já está disponível para saque ");
+       System.out.println("Olá " + nomeCliente + " obrigado por criar uma conta em nosso banco, sua agência é "+ agencia +", conta " + numero + "e seu saldo "+ saldo + " já está disponível para saque ");
     }
 }
