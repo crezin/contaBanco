@@ -25,16 +25,6 @@ public class contaTerminal {
        String  Numero = scanner.next();
         System.out.println(" saldo : "+ info);
         double valorSolicitado = scanner.nextDouble();
-               double saldo = 1000;
-
-
-        if (saldo > valorSolicitado){
-            saldo = saldo - valorSolicitado;
-        }
-        else {
-            System.out.println("saldo insuficiente");
-        }
-
 
 
         /*imprimi usando concatenar
